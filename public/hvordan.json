@@ -1,0 +1,156 @@
+{
+  "Categories": [
+    {
+      "ID": 1,
+      "Title": "Bil & Båt",
+      "Color": "#313131"
+    },
+    {
+      "ID": 2,
+      "Title": "Bolig & Hage",
+      "Color": "#62CEB8"
+    },
+    {
+      "ID": 3,
+      "Title": "Foreldre & Barn",
+      "Color": "#FB8F09"
+    },
+    {
+      "ID": 4,
+      "Title": "Helse & Velvære",
+      "Color": "#00ABF3"
+    },
+    {
+      "ID": 5,
+      "Title": "Mat & Drikke",
+      "Color": "#FF4121"
+    },
+    {
+      "ID": 6,
+      "Title": "Mote & Skjønnhet",
+      "Color": "#FF93FF"
+    }
+  ],
+  "Articles": [
+    {
+      "Category": 1,
+      "Views": 44,
+      "Date": 1300416774,
+      "Image": "Car1.jpg",
+      "Title": "Hvordan vaske og polere bilen i sola",
+      "Intro": "En kaptein tok med seg nitten innretninger inn til elefanten. En skater tok så en hodeløs telefon og kastet den på en ingeniør. Det ble stille og purken viste hvordan den trøtte alpinisten fungerte."
+    },
+    {
+      "Category": 1,
+      "Views": 20,
+      "Date": 1282887950,
+      "Image": "Car2.jpg",
+      "Title": "Hvordan vaske innsiden av døren med høytrykk",
+      "Intro": "En kaptein tok med seg nitten innretninger inn til elefanten. En skater tok så en hodeløs telefon og kastet den på en ingeniør. Det ble stille og purken viste hvordan den trøtte alpinisten fungerte."
+    },
+    {
+      "Category": 1,
+      "Views": 91,
+      "Date": 1365261016,
+      "Image": "Car3.jpg",
+      "Title": "Hvordan rense og vedlikeholde skinnseter",
+      "Intro": "Mafiabossen barberte en snømåker med en knapp. Både juledvergene og sabeltanntigerene ristet tyskeren. Det ble stille og presten viste hvordan den stygge musikeren fungerte."
+    },
+    {
+      "Category": 1,
+      "Views": 91,
+      "Date": 1305352261,
+      "Image": "Boat1.jpg",
+      "Title": "Hvordan være sikker til sjøs",
+      "Intro": "Tyranosaurusen kjøpte seg en sinnsyk server. Sjefsamerikaneren barberte chileneren, turisten og sjørøverene. Ei heks tok så en snill lastebil og kastet den på en ingeniør. "
+    },
+    {
+      "Category": 1,
+      "Views": 91,
+      "Date": 1314561310,
+      "Image": "Boat2.jpg",
+      "Title": "Hvordan vedlikeholde båttau",
+      "Intro": "Det ble stille og chileneren viste hvordan den store brasilianeren fungerte. Både superheltene og gitaristene spant gullfisken. En lojal indianer talte ni ganger på tjuefem timer."
+    },
+    {
+      "Category": 2,
+      "Views": 72,
+      "Date": 1359059571,
+      "Image": "Appletree.jpg",
+      "Title": "Hvordan du beskjærer epletrærne",
+      "Intro": "Mauren tok så en sinnsyk kompressor og kastet den på en sabeltanngiraff. Da sprayet fenrisulven en nordboer brutalt. En laks lo gitaren sjokkert ganske nært en presis stokk."
+    },
+    {
+      "Category": 2,
+      "Views": 39,
+      "Date": 1265891000,
+      "Image": "PaintingPreaparation.jpg",
+      "Title": "Hvordan gjøre grunnarbeid før maling av vegger og tak",
+      "Intro": "Rapportene ankom, mens japanerene lo under gradestokken. Soldaten bar en giraff til han flakset uansvarlig langt foran den heldige propellen. Fotballen kom eller talte. Snuten tok med seg tjuefem turbiner inn til brasilianeren. "
+    },
+    {
+      "Category": 2,
+      "Views": 117,
+      "Date": 1351654877,
+      "Image": "Paintingfloor.jpg",
+      "Title": "Hvordan male gulv",
+      "Intro": "Stokkene ankom, mens dvergene lekte bak lydmodulen. En grå huleboer gikk 359 ganger på seks timer. De så en elefant som spillte latterlig bak en gjerdestolpe."
+    },
+    {
+      "Category": 2,
+      "Views": 27,
+      "Date": 1294091266,
+      "Image": "Varmekabel.jpg",
+      "Title": "Hvordan bruke varmekabel riktig",
+      "Intro": "En pusekatt knakk en elefant treffsikkert. En kineser falt stolen hastig langt foran en langhåret ledning. Mafiabossene malte mange krepser."
+    },
+    {
+      "Category": 2,
+      "Views": 63,
+      "Date": 1338031541,
+      "Image": "Carsmoke.jpg",
+      "Title": "Hvordan fjerne røyklukt i bilen ved hjelp av eddik",
+      "Intro": "Skytteren luktet bygningen hasardiøst gjennom en sint busk. En kjempedoktor degraderte laksen til hammerhaiene. Plutselig var pusekatten der ved siden av den sinnsyke videomaskinen, og flamberte alle pusekattene nydelig."
+    },
+    {
+      "Category": 3,
+      "Views": 56,
+      "Date": 1347598567,
+      "Image": "Butterfly.jpg",
+      "Title": "Hvordan du legger sommerfugløyne",
+      "Intro": "De små dvergene filosoferte i skjul. Det ble stille og piloten viste hvordan den røde egypteren fungerte. En langhåret doktor kjørte 44 ganger på tjueto timer. Lysegule turister fyllte luften, og en pusekatt sang langt foran en øks."
+    },
+    {
+      "Category": 3,
+      "Views": 56,
+      "Date": 1347439567,
+      "Image": "flette.jpg",
+      "Title": "Hvordan lage fletter på deg selv",
+      "Intro": "En kaptein tok med seg nitten innretninger inn til elefanten. En skater tok så en hodeløs telefon og kastet den på en ingeniør. Det ble stille og purken viste hvordan den trøtte alpinisten fungerte."
+    },
+    {
+      "Category": 3,
+      "Views": 56,
+      "Date": 1347432567,
+      "Image": "kjole.jpg",
+      "Title": "Hvordan sy om kjole til skjerf",
+      "Intro": "Stokkene ankom, mens dvergene lekte bak lydmodulen. En grå huleboer gikk 359 ganger på seks timer. De så en elefant som spillte latterlig bak en gjerdestolpe."
+    },
+    {
+      "Category": 3,
+      "Views": 56,
+      "Date": 1347888567,
+      "Image": "oyne.jpg",
+      "Title": "Slik sminker du større øyne",
+      "Intro": "De små dvergene filosoferte i skjul. Det ble stille og piloten viste hvordan den røde egypteren fungerte. En langhåret doktor kjørte 44 ganger på tjueto timer. Lysegule turister fyllte luften, og en pusekatt sang langt foran en øks."
+    },
+    {
+      "Category": 3,
+      "Views": 56,
+      "Date": 1347492267,
+      "Image": "Butterfly.jpg",
+      "Title": "Hvordan trimme skjegget",
+      "Intro": "En pusekatt knakk en elefant treffsikkert. En kineser falt stolen hastig langt foran en langhåret ledning. Mafiabossene malte mange krepser."
+    }
+  ]
+}

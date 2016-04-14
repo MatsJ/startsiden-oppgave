@@ -1,0 +1,125 @@
+.container {
+      margin: 0 auto;
+      max-width: 960px;
+      align-items: center;
+    }
+
+    .header {
+      width: 100%;
+      height: 120px;
+      background-color: #F1F1F1;
+    }
+
+    .cat {
+      display: flex;
+      display: -webkit-flex;
+      border-top: 3px solid white;
+    }
+
+    .pcat {
+      width: 100%;
+      font-family: Helvetica;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      flex-direction: row;
+      -webkit-flex-direction: row;
+      padding: 10px;
+      background-color: #F1F1F1;
+      margin-top: 0px;
+    }
+
+    .pcat:hover {
+        background-color: lightgrey;
+    }
+
+    p:last-child {
+      border-right: none;
+    }
+
+    .seperator {
+      height: 80px;
+      border-right: 3px solid white;
+      position: absolute;
+      background-color: white;
+    }
+
+    #logo {
+      width:280px;
+      height: 80px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+
+    input[type="text"] {
+      float: right;
+      margin-top: 40px;
+      margin-right: 10px;
+      margin-left: 24px;
+      height: 26px;
+      width: 180px;
+      background: url(images/search.svg) no-repeat right;
+      background-color: white;
+    }
+
+    .social {
+      cursor: pointer;
+      float: right;
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+
+    .header i:nth-child(5) {
+      float:right;
+      margin-top: 40px;
+      display: none;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 630px) {
+        #logo {
+          width:200px;
+          height: 60px;
+        }
+    }
+
+    @media screen and (max-width: 530px) {
+        .header {
+          width: 100%;
+          margin: 0;
+        }
+
+        .cat {
+          display: none;
+        }
+
+        .header i:nth-child(5) {
+          float:right;
+          margin-top: 40px;
+          display: block;
+          margin-right: 20px;
+        }
+
+        #logo {
+          width:200px;
+          height: 60px;
+        }
+
+        .cat {
+          -webkit-flex-direction: column; /* Safari */
+          flex-direction: column;
+        }
+
+        .pcat {
+          margin: 0;
+          width: auto;
+        }
+
+        input[type="text"], .social, .seperator {
+          display: none;
+        }
+    }
