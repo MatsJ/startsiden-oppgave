@@ -1,4 +1,4 @@
-# Startsiden oppgave
+# Oppgave
 En oppgave jeg fikk i etterkant av et jobbintervju.
 
 (Er fortsatt in progress)
@@ -8,3 +8,5 @@ En oppgave jeg fikk i etterkant av et jobbintervju.
 `npm install express`
 
 `node server.js`
+
+`localhost:8000`
