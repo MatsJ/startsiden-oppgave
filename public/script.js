@@ -12,13 +12,14 @@ $.getJSON('hvordan.json', function(data) {
   });
   console.log(arr);
 
-  //json to array decreasing
+  //json to array decreasing sort
   var arr2 = Object.keys(data.Articles).map(function(k) { return data.Articles[k] });
-  //sort array
+
   arr2.sort(function(a, b) {
     return parseFloat(b.Date) - parseFloat(a.Date);
   });
 
+  //main menu categories
   $.each(data.Categories, function(key, val) {
     $('.cat').append('<p class="pcat" id=' + val.ID + '>' + val.Title + '</p>');
     $('.cat').append('<div class="seperator"></div>');
@@ -42,6 +43,7 @@ $.getJSON('hvordan.json', function(data) {
     }
   });
 
+  //main content
   $.each(arr2, function(key, val) {
     if(val.Image === 'Car1.jpg') {
       $('.articles').append('<div class="otherimg"><img class="other" src="./images/Car1.jpg" />' +
@@ -52,15 +54,9 @@ $.getJSON('hvordan.json', function(data) {
       '<h3 class="title">' + val.Title + '</h3><p class="desc">' + val.Intro + '</p></div>');
     }
   });
-  $.each(arr, function(key, val) {
-    //main article, newest first
-    /*
-    else if(val.Image === 'Appletree.jpg') {
-      $('.sidediv').append('<div class="imgs"><img class="sideimgs" src="./images/Appletree.jpg" /></div>' +
-      '<h3>' + val.Title + '</h3></div>');
-    }
-    */
 
+  //sidemenu
+  $.each(arr, function(key, val) {
     if(val.Image === 'Paintingfloor.jpg') {
       $('.sidediv').append('<div class="imgs"><img class="other" src="./images/Paintingfloor.jpg" /><h3>'+val.Title+'</h3></div>');
     }
@@ -80,6 +76,7 @@ $.getJSON('hvordan.json', function(data) {
   });
 });
 
+//for the menu
 $(document).ready(function(){
 	$('#hamburger').click(function(){
     $('#hamburger').css('display', 'none');
